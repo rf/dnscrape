@@ -1,0 +1,29 @@
+{
+  "author": "Russ Frank <me@russfrank.us>",
+  "name": "ru-cas",
+  "description": "simple cas auther for Rutgers",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "github.com:russfrank/ru-cas"
+  },
+  "scripts" : {
+    "test": "mocha -R spec -u tdd test.js"
+  },
+  "main": "./cas",
+  "license": "MIT",
+  "homepage": "https://github.com/russfrank/ru-cas",
+  "dependencies": {
+    "request": "2.11.1",
+    "jsdom": "*",
+    "jquery": "*",
+    "async": "*"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

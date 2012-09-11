@@ -1,0 +1,30 @@
+{
+  "author": "Russ Frank <me@russfrank.us>",
+  "name": "dnscrape",
+  "description": "dn scraper",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "github.com:russfrank/dnscrape"
+  },
+  "scripts" : {
+    "test": "mocha -R spec -u tdd test.js"
+  },
+  "main": "./cas",
+  "license": "MIT",
+  "homepage": "https://github.com/russfrank/ru-cas",
+  "dependencies": {
+    "request": "2.11.1",
+    "jsdom": "*",
+    "jquery": "*",
+    "async": "*",
+    "prompt": "*"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.8"
+  }
+}
